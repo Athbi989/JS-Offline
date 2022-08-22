@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <style>
+    body {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: #d6ccc2;
+    }
+    </style>
+</head>
+<body>
+    <h2>مرحبا بك في موقع المهام اليومية</h2>
+    <input type="text" name="" id="taskInput">
+    <br>
+    <!-- 
+        سوف يتم إستخدام الحدث 
+        onclick
+        على الزر لربطه بفنكشن الجافاسكربت
+    -->
+    <button onclick="addTask();">اضف الي المهام</button>
+    <ul id="taskList">
+        <!--هذا الجزء سوف يتم تعبئته من الجافاسكربت -->
+    </ul>
+    <script src="./script.js"></script>
+</body>
+</html>
